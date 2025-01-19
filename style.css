@@ -272,6 +272,7 @@ letter-spacing: 0%;
 text-align: left;
 opacity: 0.7;
 margin: 8px 0px;
+margin-bottom: 10px;
 }
 .target-btn{
     color: rgb(13, 19, 33);
@@ -283,8 +284,119 @@ text-align: left;
 text-decoration-line: underline;
 }
 .target-card{
+    margin-top:  50px;
     display: grid;
     grid-template-columns:repeat(4,1fr);
+    margin-bottom: 50px;
+}
+/* Next */
+.next-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.next{
+    width: 1140px;
+height: 219px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;   
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+margin: 0 auto;
+background: rgb(255, 255, 255);
+ margin-top: 50px; 
+ margin-bottom: 50px;} 
+.next-img{
+    width: 94.78px;
+height: 108px;
+}
+.next-title{
+    color: rgb(13, 19, 33);
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 30px;}
+.next-para{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+margin-top: 20px;
+}
+.next-btn{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
+.support{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    max-width: 1100px;
+    height: 400px;
+margin: 0 auto;
+left: 150px;
+right: 150px;
+top: 4752px;
+bottom: 180px;
+background-image: url("./assets/handshake.jpg");
+border-radius: 16px;
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+}
+.support-title{
+    color: rgb(255, 255, 255);
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: -20px;
+margin-bottom: 20px;
+}
+.support-para{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-bottom: 20px;
+}
+.support-feed{
+    width: 548px;
+height: 57px;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+margin-left: 190px;
+background: rgb(255, 255, 255);
+}
+.support-btn{
+    width: 120px;
+height: 57px;
+gap: 10;
+padding: 17px 20px 17px 20px;
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
 }
 /* Responsive Web Design */
 
